@@ -1,0 +1,35 @@
+#fancy-map-view-canvas {
+    height: 500px;
+}
+
+#fancy-map-view-canvas .fancy-map-control-button-text {
+    margin: 8px;
+    direction: ltr;
+    overflow: hidden;
+    position: relative;
+    color: rgb(86, 86, 86);
+    font-family: Roboto, Arial, sans-serif;
+    user-select: none;
+    font-size: 16px;
+    padding: 8px;
+    background: #FFF;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+#fancy-map-view-canvas .fancy-map-legend {
+    margin: 8px;
+    direction: ltr;
+    overflow: hidden;
+    position: relative;
+    color: rgb(86, 86, 86);
+    font-family: Roboto, Arial, sans-serif;
+    user-select: none;
+    font-size: 16px;
+    padding: 8px;
+    background: #FFF;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}

@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * Implements hook_views_api().
+ */
+function fancy_map_view_views_api() {
+  return array(
+    'api' => '3.0',
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function fancy_map_view_menu() {
+  $items['admin/config/services/fancy-map-view'] = array(
+    'title' => 'Fancy Map View',
+    'description' => 'Configure settings for the Fancy Map View module.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fancy_map_view_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'fancy_map_view.admin.inc',
+  );
+
+  return $items;
+}

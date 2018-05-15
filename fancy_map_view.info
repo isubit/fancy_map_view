@@ -1,0 +1,10 @@
+name = Fancy Map View
+description = Provides a fancy map view
+core = 7.x
+package = Custom
+version = 7.x-1.0
+dependencies[] = field
+dependencies[] = geolocation
+files[] = views/fancy_map_view.views.inc
+files[] = views/plugins/views_plugin_style_fancy_map.inc
+configure = admin/config/services/fancy-map-view
