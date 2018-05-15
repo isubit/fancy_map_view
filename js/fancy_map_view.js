@@ -40,7 +40,7 @@
       if (typeof fancyMapView.mapDataInit === 'function') {
         fancyMapView.mapDataInit(fancyMapView.map, settings.fancyMapView.features.features);
       } else {
-        fancyMapView.map.data.addGeoJson(settings.fancyMapView.view.features);
+        fancyMapView.map.data.addGeoJson(settings.fancyMapView.features);
         if (window.location.href.indexOf('?') !== -1) {
           fancyMapView.fitBounds(fancyMapView.map, settings.fancyMapView.features.features);
         }
